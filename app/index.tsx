@@ -3,7 +3,49 @@ import { Text, View,  StyleSheet } from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home screen</Text>
+      <View>
+        <View>
+          <Text>Memo App</Text>
+          <Text>ログアウト</Text>
+        </View>
+        <View>
+
+          <View>
+            <View>
+              <Text>買い物リスト</Text>
+              <Text>2025年2月21日 10:00</Text>
+            </View>
+            <View>
+              <Text>X</Text>
+            </View>
+          </View>
+
+          <View>
+            <View>
+              <Text>買い物リスト</Text>
+              <Text>2025年2月21日 10:00</Text>
+            </View>
+            <View>
+              <Text>X</Text>
+            </View>
+          </View>
+
+          <View>
+            <View>
+              <Text>買い物リスト</Text>
+              <Text>2025年2月21日 10:00</Text>
+            </View>
+            <View>
+              <Text>X</Text>
+            </View>
+          </View>
+
+        </View>
+
+        <View>
+          <Text>+</Text>
+        </View>
+      </View>
     </View>
   )
 }
@@ -11,11 +53,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
-    alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    alignItems: 'center'
   },
-  text: {
-    color: '#fff'
-  }
 })
